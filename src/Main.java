@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         boolean user = true;
-        long TicketPriceKopecks = 101995;
-        int AmountRuble = 20;
-        long BonusMiles = TicketPriceKopecks/AmountRuble/100;
-        System.out.println(BonusMiles);
+        long ticketpriceKopecks = 101995;
+        int amount = 20;
+        long bonusmiles = ticketpriceKopecks/amount/100;
+        System.out.println(bonusmiles);
     }
 }
